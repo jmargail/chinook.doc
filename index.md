@@ -1,3 +1,8 @@
-Documentation Chinook ...
+Documentation Chinook
+--------------------
 
-intro.
+Fichiers de configuration :
+- Formulaires
+- Impressions
+- Composants
+
