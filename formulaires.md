@@ -59,10 +59,11 @@ readOnly
 ---------------
 
 Plusieurs balises sont disponibles :
-•	name : nom du champ de la table à afficher.
 
-•	fieldLabel : optionnel libellé du champ. Par défaut utilise le nom ou le libelle du champ définit pour la couche.
-•	autres… : cf. doc Ext.js
+*	name : nom du champ de la table à afficher.
+
+*	fieldLabel : optionnel libellé du champ. Par défaut utilise le nom ou le libelle du champ définit pour la couche.
+*	autres… : cf. doc Ext.js
 suffix
 prefix
 tpl {value}
@@ -90,39 +91,41 @@ height
 La fiche en mode édition peut utiliser des listes déroulantes. En mode consultation le champ est affiché comme un texte.
 
 Plusieurs balises sont disponibles :
-•	name : nom du champ (notation schema.table)
 
-•	fieldLabel : libellé du champ
+*	name : nom du champ (notation schema.table)
 
-•	layer : nom d’une autre couche utilisée pour renseigner la liste des valeurs
-•	Datasource
-•	Data
+*	fieldLabel : libellé du champ
 
-•	valueField : nom du champ utilisé comme valeur (sera envoyer par le formulaire)
-•	displayField : nom du champ qui s’affiche dans la liste déroulante
+*	layer : nom d’une autre couche utilisée pour renseigner la liste des valeurs
+*	Datasource
+*	Data
 
-•	id : un identifiant (doit être unique pour toutes les fiches) convention nomcouche_nomchamp
-•	children : liste des champs enfant. Le champ enfant s’initialise en fonction de la valeur du ou des champs parents.
+*	valueField : nom du champ utilisé comme valeur (sera envoyer par le formulaire)
+*	displayField : nom du champ qui s’affiche dans la liste déroulante
+
+*	id : un identifiant (doit être unique pour toutes les fiches) convention nomcouche_nomchamp
+*	children : liste des champs enfant. Le champ enfant s’initialise en fonction de la valeur du ou des champs parents.
 [« « , » »]
 
-•	anyMatch : (true | false) filtre les valeurs avec « contient » au lieu de « commence par »
+*	anyMatch : (true | false) filtre les valeurs avec « contient » au lieu de « commence par »
 
-•	autocomplete : (true | false) affiche une zone d’autocompletion à la place d’une liste déroulante standard.
-•	minChars
-•	hideTrigger
+*	autocomplete : (true | false) affiche une zone d’autocompletion à la place d’une liste déroulante standard.
+*	minChars
+*	hideTrigger
 
-•	store inline
+*	store inline
 
 D’autres paramètres sont disponible cf. doc Ext.js
-•	typeAhead : (true | false) complète automatiquement la saisie.
-•	width
-•	listWitdh…
-•	resizable
-•	hideLabel
-•	listAlign
-•	emptyText
 
-•	editable : liste fermée (store / et autres)
+*	typeAhead : (true | false) complète automatiquement la saisie.
+*	width
+*	listWitdh…
+*	resizable
+*	hideLabel
+*	listAlign
+*	emptyText
+
+*	editable : liste fermée (store / et autres)
 
 
 5.	Champ table (gridpanel)
@@ -131,12 +134,13 @@ D’autres paramètres sont disponible cf. doc Ext.js
 Affiche des données de tables liées de type relation 1-N
 
 Plusieurs balises sont disponibles :
-•	name : nom du champ
-•	subform : lien vers une sous-fiche lors du clic sur une ligne du tableau
-•	join : définition de la jointure qui permet d’obtenir les enregistrements
-•	columns : définition des champs de la table jointe à afficher.
 
-•	fid : normalement auto…
+*	name : nom du champ
+*	subform : lien vers une sous-fiche lors du clic sur une ligne du tableau
+*	join : définition de la jointure qui permet d’obtenir les enregistrements
+*	columns : définition des champs de la table jointe à afficher.
+
+*	fid : normalement auto…
 
 
 6.	Mise en page
