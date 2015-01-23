@@ -7,7 +7,8 @@ Configuration
 Les fiches de consultation se configurent via un fichier au format JSON.
 Le même fichier de configuration permet de définir une fiche de consultation et de saisie. Un processus permet de générer également une version imprimable de la fiche.
 
-## 1.	Généralités
+1.	Généralités
+---------------
 
 La fiche est associée à une couche.
 Le fichier de configuration doit être placé dans le dossier « forms » de la couche avec l’extension « .frm »
@@ -54,7 +55,8 @@ Par défaut le champ de type « ck_textfield » est utilisé.
 readOnly
 
 
-## 2.	Champ texte
+2.	Champ texte
+---------------
 
 Plusieurs balises sont disponibles :
 •	name : nom du champ de la table à afficher.
@@ -76,12 +78,14 @@ Note : le paramètre ‘name’ peut être de la forme
 -	nomTable.nomChamp
 -	nomSchema.nomTable.nomChamp
 
-## 3.	Champ texte area
+3.	Champ texte area
+---------------
 
 htmleditor :
 height
 
-## 4.	Champ liste déroulante (combobox)
+4.	Champ liste déroulante (combobox)
+---------------
 
 La fiche en mode édition peut utiliser des listes déroulantes. En mode consultation le champ est affiché comme un texte.
 
@@ -121,7 +125,8 @@ D’autres paramètres sont disponible cf. doc Ext.js
 •	editable : liste fermée (store / et autres)
 
 
-## 5.	Champ table (gridpanel)
+5.	Champ table (gridpanel)
+---------------
 
 Affiche des données de tables liées de type relation 1-N
 
@@ -134,7 +139,8 @@ Plusieurs balises sont disponibles :
 •	fid : normalement auto…
 
 
-## 6.	Mise en page
+6.	Mise en page
+---------------
 
 Colonnes
 	layout : column
@@ -143,6 +149,7 @@ Onglets
 	xtype : tabpanel
 
 
-## 7.	Inclusions
+7.	Inclusions
+---------------
 
 @include
