@@ -1,2 +1,0 @@
-# chinook.doc
-Documentation
