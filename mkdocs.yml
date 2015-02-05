@@ -6,8 +6,8 @@ repo_url: https://github.com/jmargail/chinook.doc
 
 pages:
 - ['index.md', 'Home']
-- ['formulaires.md', 'Formulaires', 'Configuration']
-- ['impressions.md', 'Impressions', 'Configuration']
+- ['formulaires.md', 'Configuration', 'Formulaires']
+- ['impressions.md', 'Configuration', 'Impressions']
 
 
 copyright: Copyright &copy; 2014, <a href="http://www.memoris.fr">Memoris</a>.
