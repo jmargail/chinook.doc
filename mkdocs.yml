@@ -1,0 +1,13 @@
+site_name: Chinook Documentation
+site_url: http://chinook.readthedocs.org/
+site_description: Chinook WebSIG : Administration et Configuration.
+
+repo_url: https://github.com/jmargail/chinook.doc
+
+pages:
+- ['index.md', 'Home']
+- ['formulaires.md', 'Formulaires', 'Configuration']
+- ['impressions.md', 'Impressions', 'Configuration']
+
+
+copyright: Copyright &copy; 2014, <a href="http://www.memoris.fr">Memoris</a>.
