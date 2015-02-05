@@ -8,6 +8,6 @@ pages:
 - ['index.md', 'Home']
 - ['formulaires.md', 'Configuration', 'Formulaires']
 - ['impressions.md', 'Configuration', 'Impressions']
-
+- ['about.md', 'A Propos']
 
 copyright: Copyright &copy; 2014, <a href="http://www.memoris.fr">Memoris</a>.
